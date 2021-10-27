@@ -1,9 +1,63 @@
 /* Colors */
+:root {
+  --orange: #cd8164;
+  --black: #232424;
+  --white: #e8e6e3;
+}
+
+/* FONTS *?
+
 
 /* HARD RESET */
-
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+}
 /* Style */
 
-/* Header */
+a {
+  text-decoration: var(--black);
+  align-items: center;
+}
 
+ul {
+  list-style: none;
+}
+
+img{
+  max-width: 100%;
+}
+
+body {
+  background-color: var(--white);
+}
+/* Header */
+header {
+  background-color: var(--orange);
+  color: var(--white);
+  padding: 40px 5%;
+}
+
+section header {
+  width: 100%;
+}
+
+button {
+  margin-left: 500px;
+}
 /* Boxes */
+.houses {
+  width: 280px;
+  height: 200px;
+}
+
+.boxSearchResults {
+  width: 280px;
+  height: 200px;
+  border: var(--black);
+  border-style: solid;
+  background-color: var(--black);
+}

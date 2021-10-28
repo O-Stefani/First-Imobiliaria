@@ -3,6 +3,7 @@
   --orange: #cd8164;
   --black: #232424;
   --white: #e8e6e3;
+  --grey: #B3B7BD;
 }
 
 /* FONTS *?
@@ -71,24 +72,50 @@ header button {
 
 }
 
+h1{
+  margin-left: 150px;
+  margin-top: 300px;
+  font-weight: lighter;
+}
 
+#busca {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
 
 /* Boxes */
 
 
 
 div {
-  width: 286px;
+  width: 280px;
   height: 350px;
   border: var(--black);
   border-style: none;
-  background-color: var(--orange);
-  margin-left: 110px;
-  margin-top: 150px;
-  margin-bottom: 0px;
+  background-color: var(--grey);
   display: flex;
-  gap: 0.5rem;
-  position: relative;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+#box1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+#box2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-left: 80px;
 }
 
 div img {
@@ -100,7 +127,7 @@ div img {
 div #details{
   position: absolute;
   margin-left: 160px;
-  margin-top: 70px;
+  margin-top: 310px;
   width: 110px;
   height: 30px;
   border-style: solid;
@@ -111,17 +138,13 @@ div #details{
   list-style: none;
 }
 
+div h2 {
+  font-size: 1.2rem;
+  margin-top: -65px;
+  color: var(--white);
+}
 
-/*.boxSearchResults2 {
-  width: 286px;
-  height: 350px;
-  border: var(--white);
-  border-style: solid;
-  background-color: var(--orange);
-  margin-left: 100px;
-  margin-top: 150px;
-  display: flex;
-}*/
+
 
 
 footer {

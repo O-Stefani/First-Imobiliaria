@@ -1,0 +1,17 @@
+/* Colors */
+:root {
+  --orange: #cd8164;
+  --black: #232424;
+  --white: #e8e6e3;
+}
+/* HARD RESET */
+
+/* Style */
+body {
+  background-color: var(--black);
+}
+/* Header */
+header {
+  background-color: var(--orange);
+}
+/* Boxes */

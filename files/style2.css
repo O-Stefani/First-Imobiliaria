@@ -3,11 +3,19 @@
   --orange: #cd8164;
   --black: #232424;
   --white: #e8e6e3;
-  --grey: #B3B7BD;
+  --grey: #A7A7A6;
+  --blue: #324363;
+  --white3: #E4E5E7;
+  --darkwhite: #F1F5F7;
+  --ligthwhite: #FFFFFF;
+  --beige: #CBB492;
+
+
 }
 
 /* FONTS *?
 
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300&display=swap');
 
 /* HARD RESET */
 * {
@@ -46,15 +54,16 @@ body {
 
 
 header {
-  background-color: var(--orange);
-  color: var(--white);
+  background-color: var(--ligthwhite);
+  background-image: linear-gradient(to botton);
+  color: var(--black);
   width: 100%;
-  height: 140px;
+  height: 100px;
 }
 
 header img {
-  width: 10%;
-  height: 140px;
+  width: 10.5%;
+  height: 160px;
   margin-top: 0%;
   margin-left: 60px;
   align-items: flex;
@@ -63,24 +72,41 @@ header img {
 
 
 header button {
-  margin-left: 500px;
-  margin-top: -90px;
+  margin-left: 180px;
+  margin-top: -5%;
   width: 110px;
   height: 30px;
+  color: var(--blue);
+  font-weight: bold;
   background-color: unset;
   list-style: none;
+  object-fit: cover;
+  
+}
 
+
+ #wpp {
+  margin-left: 1200px;
+  margin-top: 0px;
+  color: var(--blue);
+}
+
+#wpp img {
+  width: 20px;
+  height: 20px;
 }
 
 h1{
   margin-left: 150px;
   margin-top: 300px;
   font-weight: lighter;
+  color: var(--blue);
 }
 
 #busca {
   font-size: 1.2rem;
   font-weight: lighter;
+  color: var(--blue);
 }
 
 /* Boxes */
@@ -92,11 +118,15 @@ div {
   height: 350px;
   border: var(--black);
   border-style: none;
-  background-color: var(--grey);
+  background-color: var(--ligthwhite);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+div .hosesinfo{
+  margin-right: 600px;
 }
 
 
@@ -128,22 +158,50 @@ div #details{
   position: absolute;
   margin-left: 160px;
   margin-top: 310px;
-  width: 110px;
-  height: 30px;
+  width: 90px;
+  height: 25px;
   border-style: solid;
   border-color: var(--white);
   border-radius: 10%;
   background-color:var(--white);
-  color: var(--black);
+  color: var(--blue);
   list-style: none;
 }
 
 div h2 {
   font-size: 1.2rem;
   margin-top: -65px;
-  color: var(--white);
+  color: var(--blue);
+  font-weight: lighter;
+}
+ div img .hosesinfo  {
+  width: 27,5px;
+  height: 22,5px;
 }
 
+
+
+
+.bed {
+  width: 27,5px;
+  height: 22,5px;
+  top: 3,75px;
+  left: 0%;
+  right: 0%;
+  top: 110.5%;
+  bottom: 12.5%;
+ 
+}
+
+.shower {
+  width: 30px;
+  height: 30px;
+  top: -0px;
+  left: 20%;
+  right: 0%;
+  top: 110.5%;
+  bottom: 0%;
+}
 
 
 
@@ -155,7 +213,7 @@ footer {
   align-items: center;
   position: absolute;
   margin-top: 1500px;
-  background-color: var(--orange);
+  background-color: var(--blue);
 }
 
 h3 {

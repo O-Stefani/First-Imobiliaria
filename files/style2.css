@@ -3,7 +3,7 @@
   --orange: #cd8164;
   --black: #232424;
   --white: #e8e6e3;
-  --grey: #A7A7A6;
+  --grey: #A99D8D;
   --blue: #324363;
   --white3: #E4E5E7;
   --darkwhite: #F1F5F7;
@@ -15,7 +15,7 @@
 
 /* FONTS *?
 
-@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku-+Gothic+New:wght@300&display=swap');
 
 /* HARD RESET */
 * {
@@ -55,10 +55,11 @@ body {
 
 header {
   background-color: var(--ligthwhite);
-  background-image: linear-gradient(to botton);
   color: var(--black);
   width: 100%;
   height: 100px;
+  position: relative;
+  display: inline-block;
 }
 
 header img {
@@ -70,30 +71,33 @@ header img {
   object-fit: cover;
 }
 
+  header button {
+    margin-left: 200px;
+    margin-top: -115%;
+    justify-content: space-around;
+    font-size: 0.9rem;
+    width: 110px;
+    height: 30px;
+    color: var(--blue);
+    font-weight: bold;
+    background-color: unset;
 
-header button {
-  margin-left: 180px;
-  margin-top: -5%;
-  width: 110px;
-  height: 30px;
-  color: var(--blue);
-  font-weight: bold;
-  background-color: unset;
-  list-style: none;
-  object-fit: cover;
   
-}
-
+  }
 
  #wpp {
-  margin-left: 1200px;
-  margin-top: 0px;
+  margin-left: 1050px;
+  margin-top: -125px;
   color: var(--blue);
+  display: flex;
+  flex-direction: row;
+  
 }
 
 #wpp img {
   width: 20px;
   height: 20px;
+ 
 }
 
 h1{
@@ -109,13 +113,48 @@ h1{
   color: var(--blue);
 }
 
+/* Search */
+
+#divBusca{
+  background-color:var(--ligthwhite);
+  border:solid 1px;
+  border-color: var(--grey);
+  border-radius:3px;
+  width:400px;
+  height: 40px;
+  margin-left: 550px;
+  margin-top: 100px;
+}
+
+#txtBusca{
+  float:inline-start;
+  background-color:transparent;
+  padding-left:5px;
+  font-style:normal;
+  font-size:1rem;
+  border:none;
+  height:40px;
+  width:400px;
+}
+
+#buscabutton{
+  width: 25px;
+  height: 25px;
+  margin-left: 350px;
+  margin-top:-35px;
+}
+
+
+
+
+
 /* Boxes */
 
 
 
 div {
   width: 280px;
-  height: 350px;
+  height: 442px;
   border: var(--black);
   border-style: none;
   background-color: var(--ligthwhite);
@@ -136,7 +175,7 @@ div .hosesinfo{
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 50px;
-  margin-left: 80px;
+  margin-left: 60px;
 }
 
 #box2 {
@@ -145,7 +184,7 @@ div .hosesinfo{
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 100px;
-  margin-left: 80px;
+  margin-left: 60px;
 }
 
 div img {
@@ -156,8 +195,8 @@ div img {
 
 div #details{
   position: absolute;
-  margin-left: 160px;
-  margin-top: 310px;
+  margin-left: 170px;
+  margin-top: 410px;
   width: 90px;
   height: 25px;
   border-style: solid;
@@ -170,18 +209,42 @@ div #details{
 
 div h2 {
   font-size: 1.2rem;
-  margin-top: -65px;
+  margin-top: -60px;
+  margin-left: 10px;
   color: var(--blue);
   font-weight: lighter;
 }
- div img .hosesinfo  {
-  width: 27,5px;
-  height: 22,5px;
+
+.value {
+  color: var(--blue);
+  font-size: 0.9rem;
+  margin-top: -30px;
+  margin-left: -80px;
+ 
+}
+
+.description {
+  color: var(--blue);
+  font-size: 1rem;
+  margin-top: -80px;
+  margin-left: 10px;
+  
+}
+
+.icons {
+  width: 30px;
+  height: 30px;
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+ 
+ 
 }
 
 
-
-
+/*
 .bed {
   width: 27,5px;
   height: 22,5px;
@@ -201,7 +264,7 @@ div h2 {
   right: 0%;
   top: 110.5%;
   bottom: 0%;
-}
+}*/
 
 
 

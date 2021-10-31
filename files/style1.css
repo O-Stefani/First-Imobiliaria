@@ -3,15 +3,171 @@
   --orange: #cd8164;
   --black: #232424;
   --white: #e8e6e3;
+  --grey: #A99D8D;
+  --blue: #324363;
+  --white3: #E4E5E7;
+  --darkwhite: #F1F5F7;
+  --ligthwhite: #FFFFFF;
+  --beige: #CBB492;
+
+
 }
+
+/* FONTS *?
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku-+Gothic+New:wght@300&display=swap');
+
 /* HARD RESET */
+* {
+  margin: 0px;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
 
 /* Style */
-body {
-  background-color: var(--black);
+
+
+a {
+  text-decoration: var(--black);
+  align-items: center;
 }
+
+section {
+  list-style-type:none;
+
+}
+
+/*img {
+  width: 280px;
+  height: 200px;
+}*/
+
+body {
+  background-color: var(--white);
+}
+
+
 /* Header */
+
+
 header {
-  background-color: var(--orange);
+  background-color: var(--ligthwhite);
+  color: var(--black);
+  width: 100%;
+  height: 100px;
+  position: relative;
+  display: inline-block;
+}
+
+header img {
+  width: 10.5%;
+  height: 160px;
+  margin-top: 0%;
+  margin-left: 60px;
+  align-items: flex;
+  
+}
+
+
+header button {
+  margin-left: 00px;
+  margin-top: -195%;
+  justify-content: center;
+  font-size: 0.9rem;
+  width: 110px;
+  height: 30px;
+  color: var(--blue);
+  font-weight: bold;
+  background-color: unset;
+
+}
+ #wpp {
+  margin-left: 1050px;
+  margin-top: -145px;
+  color: var(--blue);
+  display: flex;
+  flex-direction: row;
+  
+}
+
+#wpp img {
+  width: 20px;
+  height: 20px;
+ 
 }
 /* Boxes */
+
+div {
+  background-color: var(--ligthwhite);
+  width: 420px;
+  height: 354px;
+  margin-top: 267px;
+  margin-left: 925px;
+  margin-bottom: 500px;
+}
+
+div h1 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: var(--blue);
+  margin-left: 80px;
+}
+
+div button {
+  margin-top: -100px;
+}
+
+#divBusca{
+  background-color:var(--ligthwhite);
+  border:solid 1px;
+  border-color: var(--grey);
+  border-radius:3px;
+  width:200px;
+  height: 40px;
+  margin-left: 180px;
+  margin-top: 100px;
+}
+
+#txtBusca{
+  float:inline-start;
+  background-color:transparent;
+  padding-left:5px;
+  font-style:normal;
+  font-size:1rem;
+  border:none;
+  height:40px;
+  width:400px;
+}
+
+#buscabutton{
+  width: 25px;
+  height: 25px;
+  margin-left: 170px;
+  margin-top: -65px;
+}
+
+
+
+
+
+
+
+
+footer {
+  width: 100%;
+  padding: 20px 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: 800px;
+  background-color: var(--blue);
+}
+
+h3 {
+  font-size: 0.8rem;
+  color: var(--white);
+}
